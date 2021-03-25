@@ -1,0 +1,117 @@
+HTML Basics Notes
+-----------------
+-----------------
+
+* Doctype & Basic Layout
+------------------------
+
+index.html indicates homepage
+DOCTYPE html Tag tells browser the type of document - HTML5 in this case
+Head is for meta tags, info, keywords etc. hidden
+Body - is used for actual content to be displayed on the website
+Title - placed in head, name to be given to the site
+<!-- Comment Format -->
+
+* Meta Tags & SE's
+------------------
+
+Charset meta - specifies character encoding of page - can be removed
+
+Viewport meta - important for responsive design
+
+HTTP-equiv meta - for browser support for ie=edge, can remove
+
+Title tag - Will come up when website is searched with search engine
+
+Name description meta - gives info in search engine under website link
+
+Name keywords meta - used for search engine optimization, use between 8 or 12
+		    relate words.
+
+Name robots meta - can be added so page isn't indexed, use NOINDEX NOFOLLOW 
+		   content 
+
+* Headings, Paragraphs, Typography
+----------------------------------
+
+hr - create horizontal line
+
+* Links, Images & Attributes
+----------------------------
+
+a tag - used for links - target attribute added _blank for opening new tab
+internal link - use forward slash, and then html link to link to page
+
+* Lists & Tables
+----------------
+
+ol - ordered list can have a type attribute eg. <ol type="A">, this changes
+	numbering of list, "1" for default, "a" for lowercase letters
+	"I" for uppercase roman numerals, "i" for lowercase roman numerals
+
+table tag - used to create a table of data, consists of head body and footer
+		optional
+thead tag - used for head
+tr tag - will create row inside head
+th tag - will create column inside heading
+tbody tag - adds body of our table
+tr tag - again adds row inside of body
+td tag - is used to create column inside of body instead of th for head
+
+* Forms & Inputs
+----------------
+
+label tag - make sure for attribute matches ID attribute
+
+<label for="name">Name</label>
+<input type="text" id="name" name="name"> - example - name is used for server
+	type is a textfield
+
+checked attribute - to radio or select adds default option
+value attribute - adds value to textboxes
+placeholder attribute - adds placeholder text in text fields
+
+
+* Block & Inline Level Elements
+-------------------------------
+
+No notes
+
+* Divs & Spans, Classes & IDs
+-----------------------------
+
+No notes
+
+* HTML Entities
+---------------
+
+No notes
+
+* HTML5 Semantic Tags & Challenge
+---------------------------------
+
+Simple boilerplate using tags
+
+Key Shortcuts
+-------------
+
+ctrl + u - display html source in browser
+
+VS Code Shortcuts
+
+ctrl+/ - comments out code
+ctrl+enter - immediately creates a new line, doesn't affect code.
+lorem10 - Creates Lorem text with 10 words
+ctrl+shift+alt+down - Copies entire line down
+ctrl and arrow - Moves an entire word across
+home - goes to start of line
+end - goes to end of line
+alt+arrow key - move line up and down
+tag*4 - will give us four html elements
+shift+tab - with multiple elements selected will tab them back
+div#about - enters an id for our tag
+ctrl+d - select multiple similar tags
+
+Misc. Notes
+
+unsplash.source website - for embedding random images when building websites

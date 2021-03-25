@@ -1,0 +1,112 @@
+Basic CSS Notes
+---------------
+---------------
+
+* Implementing CSS
+------------------
+
+No Notes
+
+* Basic CSS Selectors
+---------------------
+
+No Notes
+
+
+* Dev Tools Introduction
+------------------------
+
+No Notes
+
+
+* Fonts In CSS
+--------------
+
+No Notes
+
+
+* Color Types
+-------------
+
+No Notes
+
+
+* Backgrounds & Borders
+-----------------------
+
+Border has three properties: width, color and style - does not matter in which order
+
+Do not need a border property on an element to use border radius property to round element
+
+
+* Box Model, Margin & Padding
+-----------------------------
+
+Use * selector to reset margin and padding in css for all elements
+Use box-sizing property to border box, so that elements remain consistents sizing i.e padding does not add to width of element
+
+
+* Float & Alignment
+-------------------
+
+Float is old technology, replaced by flexbox and grid
+
+To center container/element, add width to element and give a margin of auto
+
+Remember max-width for responsive design, as normal width doesn't scale
+
+Float - left or right, container to be floated must have a width property
+In exercise, floating is affected due to extra size added to container by padding
+using box-sizing with border box should fix issue.
+New div added below/behind floated divs also cause an issue as these floated elements weren't cleared
+Adding a utility class eg. .clr {clear:both} to a div inbetween our box 3 and box 4 rectifies the issue
+ 
+
+
+* Link State & Button Styling
+-----------------------------
+
+No Notes
+
+
+* Navigation Menu Styling
+-------------------------
+
+Floating our navbar collapsed the background, unable to see the color
+To fix it we will set an overflow property with the value of auto in the parent element, background pertains to content inside, although overflow is used on scrollbars
+
+Also remember when creating a navbar, to add padding to the link elements instead of list elements as it will affect the hover property when used to change colour etc. 
+
+
+* Inline, Block & Inline-Block Display
+--------------------------------------
+
+No Notes
+
+
+* Positioning
+-------------
+
+No Notes
+
+
+* Form Style Challenge
+----------------------
+
+No Notes
+
+
+* Form Style Solution
+---------------------
+
+No Notes
+
+
+* Aside Visibility, Order & Negative Margin
+-------------------------------------------
+
+classes override element styling
+!important overrides all styles regardless
+
+negative margins should be avoided but are possible
+negative padding doesn't work however
