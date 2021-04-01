@@ -1,9 +1,9 @@
 # modern-html-and-css
 Brad Traversy Modern HTML and CSS Udemy course
 
-*This is for my own reference and personal use. I'm doing this 
+*This is for my own reference and personal use. I'm doing this
 course to get more familiar with CSS3.
-Specifically Flexbox and Grid technologies but the course also 
+Specifically Flexbox and Grid technologies but the course also
 delves into HTML, Sass and hosting technologies like Netlify.*
 
 ## Table Of Contents
@@ -42,28 +42,97 @@ The following section contains:
 
 ### Notes
 
+Started 23/03/2021
+Ended 23/03/2021  - 4 hours 30 minutes
+
 ## CSS Basics
+
+###Coursework
+
+The following section contains:
+
+* Section Intro
+* Implementing CSS
+* Basic CSS Selectors
+* Dev Tools Introduction
+* Fonts In CSS
+* Color Types
+* Backgrounds & Borders
+* Box Model, Margin & Padding
+* Float & Alignment
+* Link State & Button Styling
+* Navigation Menu Styling
+* Inline, Block & Inline Block Display
+* Positioning
+* Form Style Challenge
+* Form Style Solution
+* Aside Visibility, Order & Negative Margin
+
+### Notes
+
+Started 24/03/2021
+Ended 25/03/2021  - 5 hours 25 minutes
 
 ## Hotel Website Project
 
+###Coursework
+
+* Project Intro
+* Aside Design & Ideas
+* File Structure & Navbar
+* Showcase & Home Info
+* Features & Footer
+* About Page
+* Contact Page
+
+### Notes
+
+Started 01/04/2021
+Ended 02/04/2021  - hours minutes
+
+*This is a code along project, I recreated the the original project,
+ minimally referring to the code, and this is found on my main GitHub Page*
+
 ## Intro To Responsive Layouts
+
+###Coursework
 
 ## Intro To Flexbox
 
+###Coursework
+
 ## EdgeLedger Website Flexbox Project
+
+###Coursework
 
 ## Website Deployment - Shared Host
 
+###Coursework
+
 ## More CSS Concepts
+
+###Coursework
 
 ## Mini Projects With Keyframes, Transitions, etc.
 
+###Coursework
+
 ## CSS Grid
+
+###Coursework
 
 ## NewsGrid Website Project
 
+###Coursework
+
 ## Website Deployment With Netlify
+
+###Coursework
 
 ## Learning Sass
 
+###Coursework
+
 ## Portfolio Website With Sass Project
+
+###Coursework
