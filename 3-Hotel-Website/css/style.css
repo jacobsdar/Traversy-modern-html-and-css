@@ -166,7 +166,6 @@ p {
 .box {
     float: left;
     width: 33.333%;
-    /* height: 100%; */
     padding: 50px;
     text-align: center;
 }
