@@ -33,3 +33,17 @@ only screen just refers to media type, like print etc.
 To only load stylesheet for screensize, create seperate css file for mobile etc.
 Then create link stylesheet in head and add media attribute to only load stylesheet for specified screen size
 <link rel="stylesheet" media="screen and (max-width: 768px)" href="mobile.css"> can place after everything to tak precedence
+
+
+* Em and Rem units
+------------------
+
+Em relative to font size of parent container
+Rem is relative to font-size of html element - default 16px
+If em is used for padding and font size is set to element, em will calculate size using element and not parent
+Em isn't consistent with nested elements
+
+Rem uses html root font-size, set to 10px to make calculations easier or to 62.5%
+
+*
+
