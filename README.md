@@ -97,6 +97,12 @@ Ended 02/04/2021  - 4 hours 10 minutes
 
 ###Coursework
 
+* What Is Responsive Design
+* Getting Started With Media Queries
+* Em & Rem Units
+* Vh & Vw Units
+* Making The Hotel Website Fully Responsive
+
 ## Intro To Flexbox
 
 ###Coursework
