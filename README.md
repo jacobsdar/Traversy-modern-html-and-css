@@ -88,7 +88,7 @@ Ended 25/03/2021  - 5 hours 25 minutes
 ### Notes
 
 Started 01/04/2021
-Ended 02/04/2021  - hours minutes
+Ended 02/04/2021  - 4 hours 10 minutes
 
 *This is a code along project, I recreated the the original project,
  minimally referring to the code, and this is found on my main GitHub Page*
