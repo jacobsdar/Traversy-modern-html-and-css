@@ -1,0 +1,35 @@
+Intro To Responsive Layouts Notes
+---------------------------------
+---------------------------------
+
+* What Is Responsive Design
+---------------------------
+
+Viewport tag is important as it tells the browser how to handle the pages and dimensions and scaling, default with emmett
+
+Fluid widths - Max and min widths
+
+Media queries
+
+Use Rem over px
+
+Mobile first 
+
+
+* Getting Started With Media Queries
+------------------------------------
+
+Media Query Syntax:        
+@media (max-width: 500px) {}
+
+Smartphone widths usually under 500px
+Tablet is usually under 768px
+
+To specifically target tablet use
+@media (min-width: 501px) and (max-width: 500px) {}
+
+only screen just refers to media type, like print etc.
+
+To only load stylesheet for screensize, create seperate css file for mobile etc.
+Then create link stylesheet in head and add media attribute to only load stylesheet for specified screen size
+<link rel="stylesheet" media="screen and (max-width: 768px)" href="mobile.css"> can place after everything to tak precedence
