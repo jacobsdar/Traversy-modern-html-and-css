@@ -1,0 +1,39 @@
+Intro To Flexbox
+----------------
+----------------
+
+* What Is Flexbox
+-----------------
+
+Flex is assigned to display property
+Replace floats
+Horizontal and vertical alignment
+Can restructure website in CSS without replacing HTML
+
+display: flex; - flex container, direct elements flex items
+Aligns horizontal in a row by default same as float
+
+
+* Flex Basics
+-------------
+
+justify-content - aligns items along main axis
+align-items - aligns items along cross axis
+align-content - align when there is extra space along cross axis
+
+flex-direction : column - aligns items in a column
+	       : row - (default)
+	       : x-reverse - reverses item order
+
+flex: 1 - When added to all items scales them to the same size
+flex: 2/3/4/etc. - Will give an item a larger size when assigned to it
+
+flex wrap - once you hit 12 items they will start to overflow
+flex-wrap: wrap;
+
+flex-flow: row wrap; - Shorthand for flex direction and flex-wrap
+
+
+
+* Flex Alignment & Order
+------------------------
