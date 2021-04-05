@@ -32,7 +32,7 @@ only screen just refers to media type, like print etc.
 
 To only load stylesheet for screensize, create seperate css file for mobile etc.
 Then create link stylesheet in head and add media attribute to only load stylesheet for specified screen size
-<link rel="stylesheet" media="screen and (max-width: 768px)" href="mobile.css"> can place after everything to tak precedence
+<link rel="stylesheet" media="screen and (max-width: 768px)" href="mobile.css"> can place after everything to take precedence
 
 
 * Em and Rem units
@@ -45,5 +45,17 @@ Em isn't consistent with nested elements
 
 Rem uses html root font-size, set to 10px to make calculations easier or to 62.5%
 
-*
+* Vh & Vw Units
+---------------
+
+Use vh to fill container height
+Use rem units to maintain a ratio on text and padding
+
+* Making The Hotel Website Fully Responsive
+-------------------------------------------
+
+Add extra style sheet and media attribute to select stylesheet when specific screen size is used, eg:
+<link rel="stylesheet" media="screen and (max-width: 768px)" href="/css/mobile.css">
+To test use a body with display none to just verify our rule is working.
+
 
