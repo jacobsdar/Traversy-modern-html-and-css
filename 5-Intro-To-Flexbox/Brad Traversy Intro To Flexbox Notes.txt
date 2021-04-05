@@ -37,3 +37,34 @@ flex-flow: row wrap; - Shorthand for flex direction and flex-wrap
 
 * Flex Alignment & Order
 ------------------------
+
+flex-basis: 300px; Same as width
+
+justify-content - used on container Y-axis
+
+Properties:
+	flex-start - aligns to left
+	flex-end - aligns to right
+	center - centers items
+	space-around - space around items
+	space-between - spaces between, pushes items to edges
+	space-evenly - even space on edges and in-between
+
+align-items - used on container X-axis
+	    - container needs height
+	    - default is stretch
+
+Properties:
+	flex-start
+	flex-end
+	stretch
+	baseline - items aligned according to baseline
+
+align-content - align items vertically if extra space
+
+Properties:
+	flex-start
+	center
+	space-around
+	space-betweenS
+
